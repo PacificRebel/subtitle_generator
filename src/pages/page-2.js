@@ -7,6 +7,8 @@ import SEO from "../components/seo"
 const SecondPage = () => (
   <Layout>
     <SEO title="Page two" />
+    <br></br>
+    <br></br>
     <h1>Synttärionnittelut maailman parhaimmalle äitille!! <span role="img" aria-label="Hearts">❤️❤️❤️</span></h1>
 
 

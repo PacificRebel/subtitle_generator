@@ -52,14 +52,28 @@ progress {
 template {
   display: none;
 }
-a {
-  background-color: transparent;
-  -webkit-text-decoration-skip: objects;
+
+a:link {
+  text-decoration: none;
+  color: black;
 }
-a:active,
+
+.li a {
+  color: black;
+   }
+
+a:visited {
+  color: black;
+}
+
 a:hover {
-  outline-width: 0;
+  color: lightgray;
 }
+
+a:active {
+  text-decoration: underline;
+}
+
 abbr[title] {
   border-bottom: 1px dotted hsla(0, 0%, 0%, 0.5);
   cursor: help;
