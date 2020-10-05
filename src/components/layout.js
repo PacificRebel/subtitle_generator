@@ -9,7 +9,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import "typeface-quicksand"
-import favicon from '../images/s_favicon.ico'
+import favicon from '../images/favicon.ico'
 import Helmet from 'react-helmet'
 
 import Header from "./header"
@@ -27,10 +27,11 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <>
+    <div>
     <Helmet>
   <link rel="icon" href={favicon} />
 </Helmet>
+    <>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <div
         style={{
@@ -49,6 +50,7 @@ const Layout = ({ children }) => {
         </footer>
       </div>
     </>
+    </div>
   )
 }
 
