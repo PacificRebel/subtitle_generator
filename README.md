@@ -1,4 +1,7 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
+
+Good instructions for changing favicon: https://codegainz.com/gatsby-favicon/
+
 <p align="center">
   <a href="https://www.gatsbyjs.com">
     <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
