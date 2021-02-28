@@ -17,7 +17,7 @@ import BackgroundImage from 'gatsby-background-image'
 const Image = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "majakka.jpeg" }) {
+      placeholderImage: file(relativePath: { eq: "joki.jpeg" }) {
         childImageSharp {
           fluid(maxWidth: 300) {
             ...GatsbyImageSharpFluid
