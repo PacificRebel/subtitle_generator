@@ -1,7 +1,7 @@
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  font: 112.5%/1.45em 'Quicksand', sans-serif;
+  font: 140.5%/1.45em 'Quicksand', sans-serif;
   box-sizing: border-box;
   overflow-y: scroll;
 }
@@ -11,7 +11,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   color: hsla(0, 0%, 0%, 0.8);
   font-family: 'Quicksand', sans-serif;
-  font-weight: normal;
+  font-weight: bold;
   word-wrap: break-word;
   font-kerning: normal;
   -moz-font-feature-settings: "kern", "liga", "clig", "calt";
@@ -67,7 +67,7 @@ a:visited {
 }
 
 a:hover {
-  color: lightgray;
+  color: white;
 }
 
 a:active {
