@@ -2,8 +2,6 @@
 
 Good instructions for changing favicon: https://codegainz.com/gatsby-favicon/
 
-Deployed:
-https://affectionate-wilson-6868ba.netlify.app/
 
 <p align="center">
   <a href="https://www.gatsbyjs.com">
